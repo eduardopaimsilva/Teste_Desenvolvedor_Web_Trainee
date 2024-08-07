@@ -1,0 +1,112 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.form-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.form-container input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.button-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-container button {
+    width: 48%;
+    padding: 10px;
+    margin: 5px 1%;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.form-container #btnClear {
+    background-color: #f44336;
+    color: white;
+}
+
+.form-container #btnSubmit {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.form-container button:hover {
+    opacity: 0.9;
+}
+
+.valid {
+    border: 2px solid green;
+}
+
+.invalid {
+    border: 2px solid red;
+}
+
+.table-buttons {
+    display: flex;
+    gap: 5px;
+}
+
+.table-buttons button {
+    padding: 5px 10px;
+    font-size: 14px;
+    cursor: pointer;
+    border: none;
+    border-radius: 3px;
+}
+
+.table-buttons .edit-button {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.table-buttons .delete-button {
+    background-color: #f44336;
+    color: white;
+}
+
